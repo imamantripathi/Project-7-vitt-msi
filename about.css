@@ -28,7 +28,7 @@
     justify-content: space-around;
   }
   .text h1 {
-    color: #ffcc74;
+    color: white;
     font-size: 85px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -48,7 +48,7 @@
     margin-bottom: 45px;
   }
   button {
-    background-color: #ffcc74;
+    background-color: #ffffff;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 30px;
