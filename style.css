@@ -199,7 +199,7 @@ header {
 .container.active .main {
   animation: main-animation 0.5s ease;
   cursor: pointer;
-  transform: perspective(10000px) rotateY(20deg) translateZ(310px) scale(0.5);
+  transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
 }
 
 @keyframes main-animation {
