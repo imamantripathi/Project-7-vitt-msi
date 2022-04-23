@@ -11,8 +11,8 @@ button {
   font-family: "Poppins", sans-serif;
 }
 html {
-  background-color: #d2a813;
-  background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%);
+  background-color: #2f322a;
+  /* background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%); */
 }
 
 .container {
@@ -43,7 +43,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #eab12f;
 }
 
 .logo {
@@ -71,7 +71,7 @@ html {
   width: 1.9rem;
   height: 1.5px;
   border-radius: 2px;
-  background-color: #eee;
+  background-color: #eab12f;
   transition: 0.5s;
   position: relative;
 }
@@ -82,7 +82,7 @@ html {
   position: absolute;
   width: inherit;
   height: inherit;
-  background-color: #eee;
+  background-color: #eab12f;
   transition: 0.5s;
 }
 
@@ -232,7 +232,8 @@ ul {
 
 .links a {
   text-decoration: none;
-  color: #e9ad2b;
+  /* color: #e0a116; */
+  color:  #eab12f;
   padding: 0.7rem 0;
   display: inline-block;
   font-size: 1rem;
@@ -401,16 +402,11 @@ header{
 
 /* Carousel  */
 .gallery {
-  /* Created with https://www.css-gradient.com */
-  /* background: #082779;
-  background: -webkit-linear-gradient(top left, #082779, #e5e007);
-  background: -moz-linear-gradient(top left, #082779, #e5e007);
-  background: linear-gradient(to bottom right, #082779, #e5e007); */
   padding-top: 50px;
   padding-bottom: 50px;
 }
 image-carousel {
-  margin: 1em 10em;
+  margin: 5% 12%;
   box-sizing: border-box;
 }
 image-carousel > img {
