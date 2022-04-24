@@ -31,6 +31,7 @@
   .text h1 {
     color: white;
     font-size: 85px;
+    text-shadow: 1px 2px 5px #eab12f;
     margin-bottom: 20px;
     text-transform: capitalize;
   }
@@ -61,16 +62,18 @@
   button:hover {
     transform: scale(1.08);
     background-color: transparent;
-    border: 2px solid #ffcc74;
+    border: 2px solid #eab12f;
     transition: 0.4s;
     cursor: pointer;
-    color: #ffcc74;
+    color: #eab12f;
+    box-shadow: 0.1px 0.02px 10px #eab12f;
   }
   @media screen and (max-width: 1180px) {
     .about {
       width: 100%;
       height: auto;
       padding: 70px 0px;
+      text-align: center;
     }
   }
   @media screen and (max-width: 650px) {
