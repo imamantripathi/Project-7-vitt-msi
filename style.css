@@ -394,19 +394,19 @@ image-carousel:hover::part(controls) {
 @media only screen and (max-width: 600px) {
   header {
     background-image: url("media/The Finance and Investment Cell (Mobile).gif");
-    background-size: 100% 80%;
+    /* background-size: 100% 80%; */
   }
 
   .inner {
     margin-right: 100px;
   }
   .shadow.one {
-    height: 80%;
+    /* height: 80%; */
     opacity: 0.15;
     z-index: -1;
   }
   .shadow.two {
-    height: 80%;
+    /* height: 80%; */
     opacity: 0.1;
     z-index: -2;
   }
