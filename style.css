@@ -11,7 +11,9 @@ button {
   font-family: "Poppins", sans-serif;
 }
 html {
-  background-color: #2f322a;
+  scroll-behavior: smooth;
+  /* background-color: #2f322a; */
+  background: #000;
   /* background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%); */
 }
 
@@ -362,7 +364,70 @@ ul {
 .container.active .main:hover {
   transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
 }
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 
+/* Styles for the content section */
+
+.content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  #button {
+    margin: 30px;
+  }
+}
+.content h1 {
+  margin-bottom: -10px;
+  color: #03a9f4;
+  line-height: 1.5;
+}
+.content h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
 /* body {
   margin: 0;
   background: #111;
@@ -389,6 +454,15 @@ image-carousel::part(controls) {
 }
 image-carousel:hover::part(controls) {
   opacity: 0.6;
+}
+i:hover{
+  transform: scale(1.08);
+    background-color: transparent;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.heading1{
+  text-align: center; font-size: 70px; text-transform: capitalize; text-shadow: 1px 1px 10px #eab12f; color: white; padding-bottom: 30px; padding-top: 30px;
 }
 /* for Mobile   */
 @media only screen and (max-width: 600px) {
