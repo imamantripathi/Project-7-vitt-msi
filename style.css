@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
+ /* tiber color code = #042F39 */
 * {
   padding: 0;
   margin: 0;
@@ -517,6 +517,29 @@ i:hover{
     height: 18em;
     }  
   header {
-    background-image: url("media/_The Finance and Investment Cell(ipad) (800 × 900 px).gif");
+    background-image: url("media/vittipad.gif");
   }
 }
+/* Scroll Top button */
+.scrollTop{
+  position: fixed;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  background-color:  #0f2530;
+  color: #eab12f;
+  border-radius: 5px;
+  border-radius: 1px solid #eab12f;
+  cursor: pointer;
+  transition: al1 e.5s ease es;}
+.scrollTop:hover{
+  background-color: #eab12f;
+  color: #0f2530;}
+/* 
+  .scrollTop .active{
+    bottom:32px;
+    color: wheat;
+    pointer-events: auto;
+    opacity:1;} */

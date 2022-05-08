@@ -21,19 +21,9 @@ $(".hover").mouseleave(
     e.target.elements.email.value = '';
     e.target.elements.message.value = '';
   });
-//scroll up button 
-  var btn = $('#button');
-
-  $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
-      btn.addClass('show');
-    } else {
-      btn.removeClass('show');
-    }
-  });
+  // scroll to top
+  function scrollToTop(){
+   window.scrollTo(0,0);
   
-  btn.on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({scrollTop:0}, '300');
-  });
-  
+  } 
+    

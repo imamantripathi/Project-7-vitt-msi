@@ -77,13 +77,17 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
       padding: 70px 0px;
       text-align: center;
     }
+    .text h1{
+      text-align: center;
+    }
   }
   @media screen and (max-width: 650px) {
     .about .content img {
       margin-bottom: 35px;
     }
     .text h1 {
-      font-size: 60px;
+      font-size: 50px;
       margin-bottom: 25px;
+      text-align: center;
     }
   }

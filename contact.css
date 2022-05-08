@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html {
+/* html {
   font-family: 'Montserrat', Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
+} */
 
-body {
-  /* background: #F2F3EB; */
-}
+/* body {
+  background: #F2F3EB; 
+} */
 
 button {
   overflow: visible;
@@ -34,8 +34,8 @@ textarea {
 
 #container {
   border: solid 3px #eab12f;
-  max-width: 768px;
-  margin: 60px auto;
+  /* max-width: 768px; */
+  margin: 60px 20px;
   position: relative;
 }
 
