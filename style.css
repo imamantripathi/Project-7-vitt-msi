@@ -536,6 +536,7 @@ i:hover{
   transition: al1 e.5s ease es;}
 .scrollTop:hover{
   background-color: #eab12f;
+  transition: all 0.5s ease;
   color: #0f2530;}
 /* 
   .scrollTop .active{
