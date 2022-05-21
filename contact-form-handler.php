@@ -1,3 +1,4 @@
+<?php
 $errors = '';
 $myemail = 'imamantripathi@gmail.com';//<-----Put Your email address here.
 if(empty($_POST['name'])  || empty($_POST['telephone'])  ||empty($_POST['subject'])  ||
@@ -45,3 +46,4 @@ mail($to,$email_subject,$email_body,$headers);
 header('Location: contact-form-thank-you.html');
 
 }
+?>
