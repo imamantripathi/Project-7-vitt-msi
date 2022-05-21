@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events | Vitt | MSI</title>
+    <link rel="stylesheet" href="events.css" />
+    <link rel="stylesheet" href="event.css">
+    
+  </head>
+  <body>
+    <div class="text">
+      <h2>EVENTS | VITT | MSI/MSIT</h2>
+    </div>
+    <div class="nav">
+      <div class="logo">
+        <a href="index.html">VITTMSI</a>
+      </div>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#core-team"> Core Team</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+        <script>
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $(".nav").addClass("sticky");
+        } else {
+          $(".nav").removeClass("sticky");
+        }
+      });
+    </script>
+  </body>
+</html>
