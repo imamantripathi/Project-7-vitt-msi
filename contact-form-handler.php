@@ -32,8 +32,8 @@ $email_subject = "Contact form submission: $name";
 $email_body = "You have received a new message. ".
 
 " Here are the details:\n Name: $name \n ".
-
-"Email: $email_address\n Message \n $message";
+"Phone-Number: $telephone\n ".
+"Email: $email_address\n Subject: $subject \n"."Message \n $message \n ";
 
 $headers = "From: $myemail\n";
 
