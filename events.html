@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events | Vitt | MSI</title>
     <link rel="stylesheet" href="events.css" />
-    <link rel="stylesheet" href="event.css">
-    
+    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
     <div class="text">
@@ -25,7 +24,81 @@
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </div>
-        <script>
+    <marquee
+      behavior="scroll"
+      direction="left"
+      hspace="0px"
+      class="marquee"
+      onMouseOver="this.stop()"
+      onMouseOut="this.start()"
+    >
+      Some of the successful events that were conducted by Vitt in the past are
+      as follows:
+      <!-- Welcome to the Event Page of Vitt Msi/Msit ! -->
+    </marquee>
+
+    <div class="event-list">
+      <div class="event-list-container" onclick="location.href='#';">
+        Cryptothon
+      </div>
+      <div
+        class="event-list-container"
+        style="padding-top: 1%; padding-bottom: 1%"
+        onclick="location.href='#';"
+      >
+        Stocks for the Weekend
+      </div>
+      <div class="event-list-container" onclick="location.href='#';">
+        Trade A Liga
+      </div>
+      <div class="event-list-container" onclick="location.href='#';">
+        Basket of Shares
+      </div>
+      <div class="event-list-container" onclick="location.href='#';">
+        Bidder's Brawl
+      </div>
+      <div class="event-list-container" onclick="location.href='#';">
+        Pitch Desk
+      </div>
+      <div class="event-list-container" onclick="location.href='#';">
+        Vyavsaay
+      </div>
+      <div
+        class="event-list-container"
+        target="_blank"
+        onclick="
+          window.open('files/Deal or No Deal Report.pdf', '_blank');"
+      >
+        Deal or no Deal
+      </div>
+    </div>
+    <!-- <section id="deal-or-no-deal"> 
+  <iframe class="iframe"
+  src='files/Deal or No Deal Report.pdf#toolbar=1'
+  width="61%"
+  height="1200px" 
+   style=" display: block;
+   margin-right: auto;
+   margin-left: auto;
+   "
+>
+</section> -->
+<br><br><br><br><br><br><br><br><br><br><hr>
+    <div class="sub-footer" style="font-family: 'Spectral sc', serif">
+      Copyright ©2022 All rights reserved |
+      <a
+        style="
+          text-decoration: none;
+          color: #000;
+          font-family: 'Spectral sc', serif;
+        "
+        href="https://linktr.ee/financialliteracy.vitt"
+        target="_blank"
+        rel="noopener noreferrer"
+        >finance.vitt</a
+      >
+    </div>
+    <script>
       $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
           $(".nav").addClass("sticky");
