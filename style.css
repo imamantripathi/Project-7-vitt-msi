@@ -470,7 +470,11 @@ i:hover{
     background-image: url("media/The Finance and Investment Cell (Mobile).gif");
     /* background-size: 100% 80%; */
   }
-
+  .heading1{
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
   .inner {
     margin-right: 100px;
   }
@@ -508,6 +512,7 @@ i:hover{
   image-carousel > img {
     width: 22em;
     height: 6em;
+    padding-left: 30px;
   }
 }
 /* for Ipad or tablet */
