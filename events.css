@@ -108,4 +108,11 @@ ul li a:hover {
 iframe::-webkit-scrollbar {
     display: none;
   }
+ /* responsive  */
+ @media screen and (max-width: 650px) 
+{
+.text h2{
+  font-size: 21px;
+}
+}
 /* Events Cards (Recent Events) */
