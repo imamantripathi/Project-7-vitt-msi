@@ -26,6 +26,7 @@ body {
   font-size: 24px;
   padding: 20px;
   margin-left: 25px;
+  /* text-align: center;*/
 }
 .nav .logo a {
   color: #042f39;
@@ -35,16 +36,18 @@ body {
   color: #000;
 }
 .nav ul {
+  flex-wrap: wrap;
   font-family: "Spectral SC", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
-  width: 50%;
+  /* width: 50%; */
   margin-left: auto;
 }
 ul li {
   padding: 20px;
   list-style: none;
+  flex-direction: column;
 }
 ul li a {
   color: #042f39;
@@ -67,6 +70,7 @@ ul li a:hover {
   /* background-color: #ffffff;
   background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
   background: #000;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0);
   font-size: 20px;
   color: #eab12f;
   font-family: "Spectral", serif;
@@ -90,29 +94,40 @@ ul li a:hover {
   font-family: "Spectral SC", serif;
   margin: 10px 20px;
 }
-.event-list-container:hover{
-    box-shadow: 5px 5px black;
-    border-radius: 2px;
-    cursor: pointer;
+.event-list-container:hover {
+  box-shadow: 5px 5px black;
+  border-radius: 2px;
+  cursor: pointer;
 }
-#deal-or-no-deal{
-    margin-top: 20px;
+#deal-or-no-deal {
+  margin-top: 20px;
 }
-.iframe{
-    box-shadow: 5px 5px black;
-    border-radius: 5px;
-    background-color:#eab12f;
-
-
+.iframe {
+  box-shadow: 5px 5px black;
+  border-radius: 5px;
+  background-color: #eab12f;
 }
 iframe::-webkit-scrollbar {
-    display: none;
-  }
- /* responsive  */
- @media screen and (max-width: 650px) 
-{
-.text h2{
-  font-size: 21px;
+  display: none;
 }
+/* responsive  */
+@media screen and (max-width: 650px) {
+  .text h2 {
+    font-size: 21px;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  ul li {
+    padding: 5px 15px;
+    list-style: none;
+    flex-direction: column;
+  }
+  .nav .logo {
+    text-align: center;
+    margin-left: 0;
+    /* display: block; */
+    padding-bottom: 10px;
+  }
 }
 /* Events Cards (Recent Events) */
